@@ -1,0 +1,62 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Aug  2 10:43:54 2011
+;; Desktop file format version 206
+;; Emacs version 23.3.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs" "~/.emacs.d/site-lisp/init_python.el" "~/.emacs.d/site-lisp/python-mode.el" "~/.emacs" "~/Projects/mkelly-affiliates/apps/users/models.py" "~/Projects/mkelly-affiliates/apps/users/forms.py"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/mkelly/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(linum-mode global-whitespace-mode auto-complete-mode yas/minor-mode)
+  5439
+  '(5279 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos)))
+
+(desktop-create-buffer 206
+  "/Users/mkelly/Projects/mkelly-affiliates/apps/users/models.py"
+  "models.py"
+  'python-mode
+  '(linum-mode global-whitespace-mode auto-complete-mode yas/minor-mode ropemacs-mode flymake-mode)
+  3876
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/mkelly/.emacs.d/site-lisp/init_python.el"
+  "init_python.el"
+  'emacs-lisp-mode
+  '(linum-mode global-whitespace-mode auto-complete-mode yas/minor-mode)
+  2175
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/mkelly/Projects/mkelly-affiliates/apps/users/forms.py"
+  "forms.py"
+  'python-mode
+  '(linum-mode global-whitespace-mode auto-complete-mode yas/minor-mode ropemacs-mode flymake-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
